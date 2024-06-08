@@ -1,0 +1,43 @@
+.Buttons Button:hover{
+    /* background-color: black; */
+}
+.heroImage{position: relative;
+    height: 700px;
+    width: 500px;
+    bottom: 5rem;
+}
+.heroContent Img{
+    z-index: -1;
+}
+.img1{
+    position: absolute;
+    left: 24rem;
+    height: 40rem;
+    top: 8rem;
+}
+.img3{
+    position: absolute;
+    left: 10rem;
+    
+}
+.img2{
+    position: absolute;
+    left: 17rem;
+    top: 4rem;
+}
+
+@media only screen and (max-width: 765px) {
+    .heroImg{
+        display: none;
+    }
+    /* .headImg{
+        height: 20rem;
+        width: 20rem;
+    } */
+    .headImg{
+        margin-top: 5rem;
+    }
+  }
+  
+
+

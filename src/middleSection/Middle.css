@@ -1,0 +1,65 @@
+.middle1-img{
+    position: relative;
+    width: 70%;
+    height: 70vh;
+}
+/* .phone{
+    position: a;
+} */
+.phone{
+    position: absolute;
+    top: -40px;
+}
+.middle1-img .springs{
+    position: absolute;
+    right: 25%;
+    bottom:-100px;
+    z-index: -1;
+}
+.gradient{
+    position: absolute;
+    z-index: -1;
+}
+
+.middle2-img{
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+}
+
+.phone2{
+    position: absolute;
+
+}
+.springs2{
+    position: absolute;
+    right: 150px;
+    bottom: -110px;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+}
+.gradient2{
+    z-index: -1;    
+}
+
+@media only screen and (max-width: 765px) {
+    .middle1-img{
+        display: none;
+    }
+    .middle2-img{
+        display: none;
+    }
+    /* .headImg{
+        height: 20rem;
+        width: 20rem;
+    } */
+    .headImg{
+        margin-top: 5rem;
+    }
+  }
+
+
+
+
+  
