@@ -17,7 +17,7 @@ const Middle = () => {
             <Text fontSize="3xl" color="oRANGE">
               FEATURES
             </Text>
-            <Text fontSize="2xl" className="clash">
+            <Text fontSize="3xl" className="clashb">
               Uifry Premium
             </Text>
           {/* middle content heading ends here -------------> */}
@@ -63,7 +63,7 @@ const Middle = () => {
       </Box>
       <Box className="middle-sec 2" display="flex" justifyContent = "space-between" alignItems="center" ml="7%" gap="50">
         <Box className="middle2-Content">
-        
+              <Text className="clashb" fontSize="4xl">Why Choose UiFry?</Text>
               <Box display="flex" gap="3">
                 <Img src={assets.mid13}/>
             <Text fontSize="2xl" className="clash">
